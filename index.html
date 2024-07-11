@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoHacks</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="abcd">
+        <div class="container">
+            <nav>
+                <ul class="nav_links nav_left">
+                    <li>
+                        <a href="#abcd" class="logo">TechnoHacks</a>
+                    </li>
+                    <li><a href="#efgh">Home</a></li>
+                    <li><a href="#ijkl">About</a></li>
+
+
+                </ul>
+                <ul class="nav_links nav_right">
+                    <li><a href="https://technohacks.co.in/">Site</a> </li>
+                    <li><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdddr_JaCY6zRFfm2dVMDm2tFmW1q3l-Oo5S2zoNeUKDV_CRw/viewform">Login/register</a>
+                    </li>
+                    <li><a href="https://github.com/ArenaMirror03">Designed by MIRROR0033</a></li>
+
+                </ul>
+            </nav>
+            <span class="letter-t">T</span>
+            <img src="https://www.technohacks.co.in/files/img_4.png" alt="header" />
+            <h4 class="text_left">Techno</h4>
+            <h4 class="text_right">Hacks</h4>
+            <button onclick="connect()" class="btn explore">Connect on LinkedIn</button>
+            <button onclick="internship()" class="btn print">Internship</button>
+            <button onclick="joinus()" class="btn catalog">Join US</button>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section id="efgh">
+        <div class="container">
+
+
+
+            <h4 style="font-size: 5vh; color: black;" class="text_left">What is </h4>
+            <h4 style="font-size: 5vh; " class="text_right">TechnoHacks</h4>
+
+            <p class="para">We provide top-notch IT training and cutting-edge products to help businesses and
+                individuals stay ahead in the ever-evolving tech landscape.Our team of experts is dedicated to helping
+                you achieve your goals and reach your full potential.</p>
+
+        </div>
+    </section>
+    <br>
+    <div class="separation"></div>
+    <section>
+        <div class="container">
+
+
+            <img class="img1" src="https://gavitsandip.files.wordpress.com/2023/04/img_1.png?w=381" alt="header" />
+            <p class="para1">Why TechnoHacks Edu Tech?</p>
+            <div class="list">
+                <li>No need of technical Background.</li>
+                <li>Industry-experienced trainers</li>
+                <li>Flexible class schedules.</li>
+                <li>Practical training.</li>
+                <li>Latest industry trends</li>
+                <li> Personalized Training</li>
+                <li> Customized training programs</li>
+                <li> Affordable pricing</li>
+                <li> Continuous support and guidance</li>
+            </div>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+    <section id="ijkl">
+        <div class="container">
+
+
+            <img class="img2" src="https://gavitsandip.files.wordpress.com/2023/04/content-strategy.png?w=512"
+                alt="header" />
+            <p class="para2">LOOKING TO LEVEL UP YOUR TECH SKILLS?</p>
+            <h2 style="position: absolute;
+            top: 39%;
+            left: 76%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 700;">Join TechnoHacks Live Training Programs</h2>
+            <h2 style="position: absolute;
+            top: 59%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 600;
+            color: white;">Domain:</h2>
+            <div class="list1">
+                <ul>
+                    <li>Programming</li>
+                    <li>Development</li>
+                    <li>Cyber Security</li>
+                    <li>Digital Marketing</li>
+                </ul>
+                <button onclick="enquirenow()" class="btn print1">Enquire Now</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="separation"></div>
+
+    <section>
+        <div class="container">
+            <h2 style="position: absolute;
+            top: 15%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 600;
+            color: white;">Contact US</h2>
+            <p class="para3">Connect with us On WhatsApp</p>
+            <button class="btn print2">Connect us on WhatsApp</button>
+            <h3 style="position: absolute;
+            top: 65%;
+            left:20%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 600;
+            color: rgb(126, 41, 126);">Have any Question?</h3>
+
+
+            <h3 style="position: absolute;
+            top: 72%;
+            left:21%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 600;
+            color: rgb(80, 80, 80);">Call or WhatAapp Us on :</h3>
+
+            <h3 style="position: absolute;
+            top: 85%;
+            left:21%;
+            transform: translate(-50%, -50%);
+            font-size: 5vh;
+            font-weight: 900;
+            color: rgb(87, 80, 80);">+91 8208937014 :</h3>
+
+            
+           
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <br><br><br><br>
+    <footer
+        style="background-color: black; color: whitesmoke; display: flex; align-items: center; justify-content: center; font-size: 8vh;">
+        WWW.technohacks.co.in</footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
